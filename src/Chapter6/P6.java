@@ -19,10 +19,10 @@ public class P6 {
 
         Scanner input = new Scanner(System.in);
 
-        double dol = 0;
         double fore = 0;
+        double dol = 0;
         double n = 0.10;
-        double conv1 = (dol * fore);
+        double conv1 = (fore * dol);
         double conv2 = (conv1 * n);
         double conv3 = 0.05;
         double conv4 = (conv1 * conv3);
@@ -81,19 +81,19 @@ public class P6 {
     /**
      * Convert Method
      *
-     * @param dol foreign currency
-     * @param fore dollar amount
+     * @param fore foreign currency
+     * @param dol dollar amount
      * @return converted amount
      */
-    public static double convert(double dol, double fore) {
+    public static double convert(double fore, double dol) {
         double n = 0.10;
-        double conv1 = (dol * fore);
+        double conv1 = (fore * dol);
         double conv2 = (conv1 * n);
         double conv3 = 0.05;
         double conv4 = (conv1 * conv3);
         double conv5 = (conv1 - conv2);
         double conv6 = (conv1 - conv4);
-        if (fore <= 100) {
+        if (dol <= 100) {
             return (conv5);
         } else {
             return (conv6);
