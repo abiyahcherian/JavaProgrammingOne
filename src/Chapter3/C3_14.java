@@ -8,13 +8,14 @@ import java.util.Scanner;
  * @author Abiyah Cherian
  */
 public class C3_14 {
- /**
-         * Main Method
-         *
-         * @param args arguments from command line prompt
-         */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
-       
+
         //listing 3.14 
         Scanner input = new Scanner(System.in);
         //recieve an input
