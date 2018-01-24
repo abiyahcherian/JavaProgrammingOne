@@ -28,7 +28,7 @@ public class C6_18 {
             System.out.println(" Invalid Password ");
         }
     }
-    
+
     // new method
     /**
      * Boolean- Check Pass Method

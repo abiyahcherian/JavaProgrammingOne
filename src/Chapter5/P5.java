@@ -8,9 +8,10 @@ import java.util.Scanner;
  * @author Abiyah Cherian
  */
 public class P5 {
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
     public static void main(String[] args) {

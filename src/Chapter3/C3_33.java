@@ -8,6 +8,7 @@ import java.util.Scanner;
  * @author Abiyah Cherian
  */
 public class C3_33 {
+
     /**
      * Main Method
      *

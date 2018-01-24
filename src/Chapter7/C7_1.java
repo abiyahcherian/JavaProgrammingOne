@@ -3,15 +3,15 @@ package Chapter7;
 import java.util.Scanner;
 
 /**
- *Program with array to find grade of changing number of students 
- * 
+ * Program with array to find grade of changing number of students
+ *
  * @author Abiyah Cherian
  */
 public class C7_1 {
 
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
     public static void main(String[] args) {
@@ -42,13 +42,14 @@ public class C7_1 {
             System.out.println("Student " + (a++) + " score is " + x + " and grade is " + grade(x, bestScore));
         }
     }
+
     /**
-     * 
+     * Grade char method
+     *
      * @param score score of each student
      * @param best best score of student used to curve other grades
      * @return letter grade
      */
-    
     public static char grade(int score, int best) {
         if (score >= (best - 10)) {
             return 'A';
